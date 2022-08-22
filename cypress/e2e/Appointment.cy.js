@@ -20,7 +20,7 @@ describe('Test Suite',()=>{
             cy.log(name)
             cy.log(name.length)
             expect(name).to.contain('Akshit')
-            
+            cy.log("NEW VALUE ADDED");
 
         })
       
